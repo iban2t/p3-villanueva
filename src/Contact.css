@@ -1,0 +1,10 @@
+.contact {
+    display: inline-block;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+}
+
+.spacer {
+    height: 20px; /* Adjust the height as needed */
+  }

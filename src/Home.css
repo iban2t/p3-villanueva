@@ -1,0 +1,35 @@
+.carousel {
+    max-width: 850px; /* Adjust the maximum width of the carousel */
+    margin: auto; /* Center the carousel horizontally */
+}
+  
+.carousel-item img {
+    max-width: 100%; /* Ensure the images scale proportionally within the carousel */
+    height: auto; /* Allow the images to adjust their height accordingly */
+  }
+  
+.carousel-item {
+    position: relative;
+}
+  
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%; /* Adjust the height of the gradient overlay as needed */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1; /* Set a higher z-index to position the gradient overlay behind the text */
+  }
+  
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: white; /* Adjust text color as needed */
+    z-index: 2; /* Set a higher z-index to position the text above the gradient overlay */
+}
+  
