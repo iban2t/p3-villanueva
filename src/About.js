@@ -62,10 +62,10 @@ function About() {
                         backgroundImage : `url("/images/hobby4.jpg")`
                     }}><div>Sneaker Collecting</div>
                     </div>
-                    <div style={{
+                    {/* <div style={{
                         backgroundImage : `url("/images/hobby5.jpg")`
                     }}><div>Work Out</div>
-                    </div>
+                    </div> */}
                     <div style={{
                         backgroundImage : `url("/images/hobby6.jpg")`
                     }}><div>Video Games</div>
